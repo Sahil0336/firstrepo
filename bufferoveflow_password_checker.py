@@ -11,6 +11,6 @@ if (len(s) == 8 and s[0].isupper() == True and s[7].islower() == True):
         if (i == '@' or i == '$' or i == '_' or i == ','):
             p += 1
 if (l >= 1 and u >= 1 and p >= 1 and d >= 1 and l+p+u+d == len(s)):
-    print("Valid password...")
+    print("\nValid password...")
 else:
-    print('Invalid password...')
+    print('\nInvalid password...')
