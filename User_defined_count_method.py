@@ -1,9 +1,9 @@
 def count1(ch, s):
-    c = 0
+    char_count = 0
     for i in s:
         if i == ch:
-            c += 1
-    print(ch, 'has occured', c, 'times')
+            char_count += 1
+    print(ch, 'has occured', char_count, 'times')
 
 
 s = input("Enter the string: ")
