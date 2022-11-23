@@ -22,7 +22,7 @@ def decipher(yourtext):
 
 
 yourtext = input("Enter your text: ")
-ch = int(input("Enter 1 for encrypt and 2 for decrypt: "))
+ch = int(input("Enter 1 for encryption and 2 for decryption: "))
 if (ch == 1):
     (encrypt(yourtext))
 elif (ch == 2):
