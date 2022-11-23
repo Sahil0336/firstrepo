@@ -11,4 +11,4 @@ if nterms <= 0:
 else:
     print("Fibonacci sequence:")
     for i in range(nterms):
-        print(recur_fibo(i))
+        print(recur_fibo(i), end=', ')
