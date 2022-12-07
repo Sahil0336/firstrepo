@@ -8,10 +8,15 @@
 # print(f"The largest number in the is: {value}")
 
 # Another more  efficient way
-numbers = [21,55,30,19,26,54,37,45]
-Max = numbers[0]
-for i in numbers:
-    if i> Max:
-        Max= i
-print(f"The largest number in the list is: {Max}")
+def find_max(numbers):
+    max = numbers[0]
+    for i in numbers:
+        if i > max:
+            max = i
+    return max
+
+
+numbers = [21, 55, 30, 19, 26, 54, 37, 45]
+print(max)
+
 # how to comment a whole portion just press ctrl and / together
