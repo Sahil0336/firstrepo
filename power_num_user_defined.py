@@ -14,4 +14,4 @@ number = int(input("Enter the number: "))
 power = int(input("Enter power: "))
 
 print(
-    f"value of {number} to the power {power} is  {power_of_num(number, power)}")
+    f"value of {number}  to the power {power} is  {power_of_num(number, power)}")
