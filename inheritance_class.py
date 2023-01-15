@@ -16,5 +16,6 @@ class Cat(Mammal):
 
 thedog = Dog()
 thedog.walk()
+thedog.bark()
 thecat = Cat()
 thecat.be_annoying()
